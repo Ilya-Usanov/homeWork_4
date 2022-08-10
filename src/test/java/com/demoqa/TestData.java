@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class Attributes {
+public class TestData {
     String
             firstName = "Ivan",
             lastName = "Ivanov",
@@ -24,6 +24,6 @@ public class Attributes {
     LocalDate date = LocalDate.parse(dateOfBirth, DateTimeFormatter.ofPattern("MM.dd.yyyy"));
     String updateDateOfBirth = date.format(DateTimeFormatter.ofPattern("dd MMMM,yyyy", new Locale("en")));
 
-    public Attributes() {
+    public TestData() {
     }
 }
