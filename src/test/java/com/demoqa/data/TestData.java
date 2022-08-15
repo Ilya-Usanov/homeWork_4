@@ -12,7 +12,7 @@ public class TestData {
     public String gender = "Male";
     public String mobile = "8999876543";
     public String dateOfBirth = "01.09.1988";
-    public String subjects = "Mathematics, History";
+    public String subjects = "Maths";
     public String picture = "test.txt";
     public String currentAddress = "Random street";
     public String state = "NCR";

@@ -76,7 +76,7 @@ public class RegistrationFormPage {
     }
 
     public void fillsSubjects(TestData testData) {
-        subjects.setValue(testData.subjects);
+        subjects.setValue(testData.subjects).pressEnter();
     }
 
     public void fillsHobbies(TestData testData) {
